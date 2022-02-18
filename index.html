@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unit Converter</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
@@ -13,7 +14,8 @@
         <div class="top-half">
             <h1 class="title">Metric/Imperial Unit Conversion</h1>
             <div>
-                <input type="number" class="input" id="input" placeholder="enter a number" oninput="feetConverter(this.value); metreConverter(this.value); kiloConverter(this.value); poundConverter(this.value); gallonConverter(this.value); litreConverter(this.value); setInput(this.value)" >
+                <input type="number" class="input" id="input" placeholder="enter a number"
+                    oninput="feetConverter(this.value); metreConverter(this.value); kiloConverter(this.value); poundConverter(this.value); gallonConverter(this.value); litreConverter(this.value); setInput(this.value)">
             </div>
         </div>
         <div class="bottom-half">
@@ -22,31 +24,38 @@
                     <h3 class="length">Length (Metres/Feet)</h3>
                     <div class="length-cal">
                         <div class="metres">
-                            <span class="inputNum">0</span> 
-                            metres = 
-                            <span id="outputFeet">0</span> 
-                            feet</div>
-                        <div class="feet" id="feet"> <span class="inputNum">0</span> feet = <span id="outputMetres">0</span> metres</div>
+                            <span class="inputNum">0</span>
+                            metres =
+                            <span id="outputFeet">0</span>
+                            feet
+                        </div>
+                        <div class="">|</div>
+                        <div class="feet" id="feet"> <span class="inputNum">0</span> feet = <span
+                                id="outputMetres">0</span> metres</div>
                     </div>
                 </div>
                 <div>
                     <h3 class="volume">Volume (Litres/Gallons)</h3>
                     <div class="volume-cal">
-                        <div class="litres"><span class="inputNum">0</span> litres = <span id="outputGallons">0</span> gallons</div>
-                        <div class="gallons"> <span class="inputNum">0</span> gallons = <span id="outputLitres">0</span> litres</div>
+                        <div class="litres"><span class="inputNum">0</span> litres = <span id="outputGallons">0</span>
+                            gallons</div>
+                        <div class="gallons"> <span class="inputNum">0</span> gallons = <span id="outputLitres">0</span>
+                            litres</div>
                     </div>
                 </div>
                 <div>
                     <h3 class="mass">Mass (Kilograms/Pounds</h3>
                     <div class="mass-cal">
-                        <div class="kilograms"><span class="inputNum">0</span> kilograms = <span id="outputPounds">0</span> pounds</div>
-                        <div class="pounds"> <span class="inputNum">0</span> pounds = <span id="outputKilo">0</span> kilograms</div>
+                        <div class="kilograms"><span class="inputNum">0</span> kilograms = <span
+                                id="outputPounds">0</span> pounds</div>
+                        <div class="pounds"> <span class="inputNum">0</span> pounds = <span id="outputKilo">0</span>
+                            kilograms</div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-<script src="./app.js"></script>
+    <script src="./app.js"></script>
 </body>
 
 </html>
