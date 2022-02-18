@@ -51,13 +51,16 @@ body {
     height: 300px;
     
 }
-
+.input-wrapper {
+    text-align: center;
+}
 #input {
     color: white;
     background-color: transparent;
     border: none;
     font-size: 90px;
     padding-left: 140px; 
+    outline: none;
 }
 
 
