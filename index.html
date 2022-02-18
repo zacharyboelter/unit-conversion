@@ -13,7 +13,7 @@
         <div class="top-half">
             <h1 class="title">Metric/Imperial Unit Conversion</h1>
             <div>
-                <input type="text" class="input">
+                <input type="number" class="input" id="input" placeholder="enter a number" oninput="feetConverter(this.value); metreConverter(this.value); setInput(this.value)" >
             </div>
         </div>
         <div class="bottom-half">
@@ -21,8 +21,8 @@
                 <div>
                     <h3 class="length">Length (Metres/Feet)</h3>
                     <div class="length-cal">
-                        <div class="metres">0 metres = 0 feet</div>
-                        <div class="feet"> 0 feet = 0 metres</div>
+                        <div class="metres"><span class="inputNum">0</span> metres = <span id="outputFeet">0</span> feet</div>
+                        <div class="feet" id="feet"> <span class="inputNum">0</span> feet = <span id="outputMetres">0</span> metres</div>
                     </div>
                 </div>
                 <div>
@@ -42,7 +42,7 @@
             </div>
         </div>
     </div>
-
+<script src="./app.js"></script>
 </body>
 
 </html>
