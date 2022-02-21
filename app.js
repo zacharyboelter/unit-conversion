@@ -23,25 +23,25 @@ function setInput(valNum) {
 
 
 function feetConverter(valNum) {
-    meter.innerHTML = valNum / 3.2808;
+    meter.innerHTML = (valNum / 3.2808).toFixed(3);
 }
 
 function metreConverter(valNum) {
-    feet.innerHTML = valNum * 3.2808;
+    feet.innerHTML = (valNum * 3.2808).toFixed(3);
 }
 
 function gallonConverter(valNum) {
-    gallon.innerHTML = valNum * 3.7854;
+    gallon.innerHTML = (valNum * 3.7854).toFixed(3);
 }
 
 function litreConverter(valNum) {
-    litre.innerHTML = valNum / 3.7854;
+    litre.innerHTML = (valNum / 3.7854).toFixed(3);
 }
 
 function kiloConverter(valNum) {
-    pound.innerHTML = valNum * 2.2046;
+    pound.innerHTML = (valNum * 2.2046).toFixed(3);
 }
 
 function poundConverter(valNum) {
-    kilo.innerHTML = valNum / 2.2046;
+    kilo.innerHTML = (valNum / 2.2046).toFixed(3);
 }
