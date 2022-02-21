@@ -4,4 +4,4 @@ Imperial and Metric converter build with HTML, CSS, and Javascript.
 
 ### How To Use
 
-Check it out at [pip](https://zacharyboelter.github.io/unit-conversion/).
+Check it out at [my github link](https://zacharyboelter.github.io/unit-conversion/).
